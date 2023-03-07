@@ -1,0 +1,16 @@
+Inverted Repeat of: F:\350\IUPACpal_tmp\src\helpers\input.txt
+Sequence name: tttt
+Sequence length is: 5
+Start at position: 1
+End at position: 5
+Minimum length of Inverted Repeat is: 2
+Maximum length of Inverted Repeat is: 5
+Maximum gap between elements is: 2
+Number of mismatches allowed in IR: 3
+
+
+
+Inverted Repeats:
+
+
+
