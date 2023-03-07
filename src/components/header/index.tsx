@@ -30,6 +30,8 @@ export default function HeaderResponsive() {
 		if (Cookies.get('admin'))
 			setIsLoggedIn(true);
 		console.log(router.asPath + " , " + Cookies.get('admin') + " --> " + isLoggedIn);
+		console.log(process.cwd());
+
 
 	}, [router.asPath]);
 
@@ -70,7 +72,7 @@ export default function HeaderResponsive() {
 			<Container className={classes.header}>
 				<Text color="white" size={28}>IUPACpal.v2</Text>
 				<Group spacing={5} className={classes.links}>
-					{items}
+					{isLoggedIn == true ? itemsAdmin : items}
 				</Group>
 
 				<Burger opened={opened} onClick={toggle} className={classes.burger} size="sm" />
