@@ -1,16 +1,73 @@
-Inverted Repeat of: F:\350\IUPACpal_tmp\src\helpers\input.txt
-Sequence name: tttt
-Sequence length is: 5
-Start at position: 1
-End at position: 5
+Sequence name: seq0
+Sequence length is: 21
 Minimum length of Inverted Repeat is: 2
-Maximum length of Inverted Repeat is: 5
-Maximum gap between elements is: 2
-Number of mismatches allowed in IR: 3
+Maximum length of Inverted Repeat is: 10
+Maximum gap between elements is: 5
+Number of mismatches allowed in IR: 0
 
 
 
 Inverted Repeats:
+3        ggggg        7
+         |||||
+13       ccccc        9
+(Length = 5, Gap = 1 , Mismatch = 0)
+
+3        ggggg        7
+         |||||
+12       ccccc        8
+(Length = 5, Gap = 0 , Mismatch = 0)
+
+3        gggg        6
+         ||||
+11       cccc        8
+(Length = 4, Gap = 1 , Mismatch = 0)
+
+3        ggg        5
+         |||
+10       ccc        8
+(Length = 3, Gap = 2 , Mismatch = 0)
+
+3        gg        4
+         ||
+9        cc        8
+(Length = 2, Gap = 3 , Mismatch = 0)
+
+4        gggg        7
+         ||||
+13       cccc       10
+(Length = 4, Gap = 2 , Mismatch = 0)
+
+5        ggg        7
+         |||
+13       ccc       11
+(Length = 3, Gap = 3 , Mismatch = 0)
+
+6        gg        7
+         ||
+13       cc       12
+(Length = 2, Gap = 4 , Mismatch = 0)
+
+15       ta       16
+         ||
+21       at       20
+(Length = 2, Gap = 3 , Mismatch = 0)
+
+15       ta       16
+         ||
+18       at       17
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+16       at       17
+         ||
+19       ta       18
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+17       ta       18
+         ||
+21       at       20
+(Length = 2, Gap = 1 , Mismatch = 0)
+
 
 
 
