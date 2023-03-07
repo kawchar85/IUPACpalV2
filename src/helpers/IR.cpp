@@ -22,6 +22,21 @@ using namespace std::chrono;
 typedef int INT;
 
 
+
+bool is_valid_iupac_dna(string s) {
+    set<char> valid_bases {'A', 'C', 'G', 'T', 'U', 'R', 'Y', 'S', 'W', 'K', 'M', 'B', 'D', 'H', 'V', 'N', '*', '-'};
+    for (char c : s) {
+        char ch = c;
+        if( 'a' <= ch && ch <= 'z') {
+            ch = ch - 32;
+        }
+        if (valid_bases.count(ch) == 0) {
+            return false;
+        }
+    }
+    return true;
+}
+
 string formatedTime(double duration) {
     string units;
     double time_taken;
@@ -751,6 +766,9 @@ int main(int argc, char* argv[]) {
 
     // Check if sequence name was found, exit if not
     if (!found_seq) { cout << "Error: Sequence '" + seq_name + "' not found in your input DNA file." << endl; return -1; }
+
+    //invalid?
+    if (!is_valid_iupac_dna(contents)) { cout << "Error: Provided sequence is not a valid IUPAC-encoded DNA." << endl; return -1; }
 
     long int n = contents.length();
     unsigned char * seq = ( unsigned char* ) malloc( ( n ) * sizeof( unsigned char ) );

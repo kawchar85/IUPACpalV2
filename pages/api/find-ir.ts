@@ -44,7 +44,7 @@ export default async function handler(
 
 						return res.status(500).json({
 							// error: `stdout: ${stdout}` + "\n" + `exec error: ${error}`
-							error: `stdout: ${stdout}`
+							error: "\n" + `${stdout}`
 						});
 					}
 					//console.log(`stdout: ${stdout}`);

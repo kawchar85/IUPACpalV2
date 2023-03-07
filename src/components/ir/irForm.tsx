@@ -26,7 +26,7 @@ const getData = async () => {
 	try {
 		const response = await axios.get('/get-data');
 		const data = response.data;
-		console.log(data); // logs the data retrieved from the database
+		// console.log(data); // logs the data retrieved from the database
 	} catch (error) {
 		console.error(error);
 	}
@@ -119,7 +119,7 @@ export function IRForm() {
 				const content = await getFileContent(firebaseFileUrl);
 				setNewContent(content);
 			} catch (error: any) {
-				let msg = "There is an error in";
+				let msg = "There is an error in ";
 				if (isUsingFileInput) {
 					msg += "your input file";
 				} else {
@@ -259,7 +259,7 @@ export function IRForm() {
 				// console.log("got\n" + output);
 
 			} catch (error: any) {
-				let msg = "There is an error in";
+				let msg = "There is an error in ";
 				if (isUsingFileInput) {
 					msg += "your input file";
 				} else {

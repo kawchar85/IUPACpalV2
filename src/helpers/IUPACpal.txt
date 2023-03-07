@@ -1,71 +1,2041 @@
 Sequence name: seq0
-Sequence length is: 21
+Sequence length is: 1000
 Minimum length of Inverted Repeat is: 2
-Maximum length of Inverted Repeat is: 10
-Maximum gap between elements is: 5
-Number of mismatches allowed in IR: 0
+Maximum length of Inverted Repeat is: 7
+Maximum gap between elements is: 2
+Number of mismatches allowed in IR: 2
 
 
 
 Inverted Repeats:
-3        ggggg        7
-         |||||
-13       ccccc        9
-(Length = 5, Gap = 1 , Mismatch = 0)
+1        ctgagg        6
+         |||  |
+13       gacggc        8
+(Length = 6, Gap = 1 , Mismatch = 2)
 
-3        ggggg        7
-         |||||
-12       ccccc        8
-(Length = 5, Gap = 0 , Mismatch = 0)
+1        ct        2
+         ||
+5        ga        4
+(Length = 2, Gap = 1 , Mismatch = 0)
 
-3        gggg        6
-         ||||
-11       cccc        8
-(Length = 4, Gap = 1 , Mismatch = 0)
+5        ggc        7
+         | |
+11       cgg        9
+(Length = 3, Gap = 1 , Mismatch = 1)
 
-3        ggg        5
+5        gg        6
+         ||
+8        cc        7
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+6        gcc        8
          |||
-10       ccc        8
+11       cgg        9
+(Length = 3, Gap = 0 , Mismatch = 0)
+
+7        ccg        9
+         | |
+13       gac       11
+(Length = 3, Gap = 1 , Mismatch = 1)
+
+8        cgg       10
+         | |
+13       gac       11
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+14       agcct       18
+         ||  |
+24       tcaca       20
+(Length = 5, Gap = 1 , Mismatch = 2)
+
+14       ag       15
+         ||
+18       tc       17
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+17       ctaaca       22
+         | || |
+29       gcttat       24
+(Length = 6, Gap = 1 , Mismatch = 2)
+
+22       act       24
+         | |
+27       tta       25
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+23       cta       25
+         | |
+29       gct       27
+(Length = 3, Gap = 1 , Mismatch = 1)
+
+25       attc       28
+         ||||
+32       taag       29
+(Length = 4, Gap = 0 , Mismatch = 0)
+
+28       cgaatg       33
+         ||| ||
+40       gctcac       35
+(Length = 6, Gap = 1 , Mismatch = 1)
+
+29       gaat       32
+         |  |
+37       caca       34
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+33       gaca       36
+         |  |
+41       cgct       38
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+35       cac       37
+         | |
+42       gcg       40
+(Length = 3, Gap = 2 , Mismatch = 1)
+
+37       ctc       39
+         | |
+42       gcg       40
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+39       cg       40
+         ||
+42       gc       41
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+40       gcggact       46
+         | || ||
+55       caccgga       49
+(Length = 7, Gap = 2 , Mismatch = 2)
+
+40       gcgg       43
+         |  |
+48       catc       45
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+42       gga       44
+         | |
+48       cat       46
+(Length = 3, Gap = 1 , Mismatch = 1)
+
+50       gg       51
+         ||
+53       cc       52
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+54       acacca       59
+         |||| |
+66       tgtgct       61
+(Length = 6, Gap = 1 , Mismatch = 1)
+
+58       cac       60
+         |||
+65       gtg       63
 (Length = 3, Gap = 2 , Mismatch = 0)
 
-3        gg        4
-         ||
-9        cc        8
-(Length = 2, Gap = 3 , Mismatch = 0)
+59       actc       62
+         |  |
+68       tctg       65
+(Length = 4, Gap = 2 , Mismatch = 2)
 
-4        gggg        7
+59       actc       62
+         || |
+66       tgtg       63
+(Length = 4, Gap = 0 , Mismatch = 1)
+
+63       gtg       65
+         | |
+69       ctc       67
+(Length = 3, Gap = 1 , Mismatch = 1)
+
+66       tctccga       72
+         | ||| |
+81       aaagggt       75
+(Length = 7, Gap = 2 , Mismatch = 2)
+
+66       tctc       69
+         | ||
+74       acag       71
+(Length = 4, Gap = 1 , Mismatch = 1)
+
+73       ca       74
+         ||
+76       gt       75
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+75       tgggaaa       81
+         || || |
+88       acactgt       82
+(Length = 7, Gap = 0 , Mismatch = 2)
+
+75       tggga       79
+         ||  |
+86       actgt       82
+(Length = 5, Gap = 2 , Mismatch = 2)
+
+77       ggaa       80
+         |  |
+85       ctgt       82
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+78       gaaa       81
+         |  |
+87       cact       84
+(Length = 4, Gap = 2 , Mismatch = 2)
+
+79       aaatgt       84
+         |  |||
+91       taaaca       86
+(Length = 6, Gap = 1 , Mismatch = 2)
+
+82       tg       83
+         ||
+86       ac       85
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+88       aaataca       94
+         || || |
+103      ttgatct       97
+(Length = 7, Gap = 2 , Mismatch = 2)
+
+88       aaat       91
+         |  |
+97       taaa       94
+(Length = 4, Gap = 2 , Mismatch = 2)
+
+94       aaat       97
+         || |
+103      ttga      100
+(Length = 4, Gap = 2 , Mismatch = 1)
+
+94       aaa       96
+         | |
+99       tct       97
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+96       atct       99
+         | ||
+103      ttga      100
+(Length = 4, Gap = 0 , Mismatch = 1)
+
+97       tcta      100
+         |  |
+105      actt      102
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+101      gtt      103
+         | |
+107      cca      105
+(Length = 3, Gap = 1 , Mismatch = 1)
+
+101      gt      102
+         ||
+106      ca      105
+(Length = 2, Gap = 2 , Mismatch = 0)
+
+103      tcac      106
+         |  |
+111      atcg      108
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+105      acc      107
+         | |
+110      tcg      108
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+108      gct      110
+         | |
+113      cca      111
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+112      ccca      115
+         |  |
+119      gact      116
+(Length = 4, Gap = 0 , Mismatch = 2)
+
+113      ccat      116
+         |  |
+121      gcga      118
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+118      agcg      121
+         |  |
+126      tgtc      123
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+122      ac      123
+         ||
+126      tg      125
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+123      ctgtt      127
+         | | |
+133      gtcta      129
+(Length = 5, Gap = 1 , Mismatch = 2)
+
+124      tg      125
+         ||
+129      ac      128
+(Length = 2, Gap = 2 , Mismatch = 0)
+
+126      ttca      129
          ||||
-13       cccc       10
+135      aagt      132
 (Length = 4, Gap = 2 , Mismatch = 0)
 
-5        ggg        7
+129      atct      132
+         || |
+137      taaa      134
+(Length = 4, Gap = 1 , Mismatch = 1)
+
+130      tc      131
+         ||
+134      ag      133
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+132      tgaa      135
+         |  |
+140      agat      137
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+134      aaat      137
+         |  |
+143      tcca      140
+(Length = 4, Gap = 2 , Mismatch = 2)
+
+135      aatag      139
+         ||  |
+145      tttcc      141
+(Length = 5, Gap = 1 , Mismatch = 2)
+
+136      atag      139
+         | ||
+145      tttc      142
+(Length = 4, Gap = 2 , Mismatch = 1)
+
+138      aga      140
+         | |
+145      ttt      143
+(Length = 3, Gap = 2 , Mismatch = 1)
+
+145      tcca      148
+         |  |
+153      attt      150
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+148      actttat      154
+           |||||
+163      ccaaata      157
+(Length = 7, Gap = 2 , Mismatch = 2)
+
+150      ttta      153
+         |  |
+157      acct      154
+(Length = 4, Gap = 0 , Mismatch = 2)
+
+154      tcca      157
+         |  |
+161      aaat      158
+(Length = 4, Gap = 0 , Mismatch = 2)
+
+155      ccat      158
+         |  |
+164      gcca      161
+(Length = 4, Gap = 2 , Mismatch = 2)
+
+157      ataaac      162
+         |||| |
+169      tattcg      164
+(Length = 6, Gap = 1 , Mismatch = 1)
+
+160      aacc      163
+         || |
+167      ttcg      164
+(Length = 4, Gap = 0 , Mismatch = 1)
+
+164      gct      166
+         | |
+170      cta      168
+(Length = 3, Gap = 1 , Mismatch = 1)
+
+165      ctta      168
+         |  |
+174      gcct      171
+(Length = 4, Gap = 2 , Mismatch = 2)
+
+171      tccg      174
+         |  |
+180      accc      177
+(Length = 4, Gap = 2 , Mismatch = 2)
+
+171      tcc      173
+         | |
+176      aag      174
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+171      tc      172
+         ||
+175      ag      174
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+180      aata      183
+         |  |
+188      tact      185
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+180      aat      182
          |||
-13       ccc       11
-(Length = 3, Gap = 3 , Mismatch = 0)
+185      tta      183
+(Length = 3, Gap = 0 , Mismatch = 0)
 
-6        gg        7
+183      at      184
          ||
-13       cc       12
-(Length = 2, Gap = 4 , Mismatch = 0)
+188      ta      187
+(Length = 2, Gap = 2 , Mismatch = 0)
 
-15       ta       16
-         ||
-21       at       20
-(Length = 2, Gap = 3 , Mismatch = 0)
+187      atccc      191
+         |  ||
+197      tccgg      193
+(Length = 5, Gap = 1 , Mismatch = 2)
 
-15       ta       16
+188      tcccagg      194
+         | | |||
+201      acgctcc      195
+(Length = 7, Gap = 0 , Mismatch = 2)
+
+189      cc      190
          ||
-18       at       17
+194      gg      193
+(Length = 2, Gap = 2 , Mismatch = 0)
+
+191      cagg      194
+         |  |
+199      gctc      196
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+193      ggcc      196
+         |  |
+202      cacg      199
+(Length = 4, Gap = 2 , Mismatch = 2)
+
+195      cctcgc      200
+         | || |
+208      gtaggg      203
+(Length = 6, Gap = 2 , Mismatch = 2)
+
+195      cctcg      199
+         ||  |
+204      ggcac      200
+(Length = 5, Gap = 0 , Mismatch = 2)
+
+196      ctcg      199
+         | ||
+205      gggc      202
+(Length = 4, Gap = 2 , Mismatch = 1)
+
+200      cac      202
+         | |
+205      ggg      203
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+206      at      207
+         ||
+210      ta      209
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+207      tgat      210
+         |  |
+215      ataa      212
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+207      tga      209
+         | |
+212      agt      210
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+209      at      210
+         ||
+214      ta      213
+(Length = 2, Gap = 2 , Mismatch = 0)
+
+211      gaa      213
+         | |
+216      cat      214
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+214      tac      216
+         | |
+219      aag      217
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+221      cc      222
+         ||
+224      gg      223
 (Length = 2, Gap = 0 , Mismatch = 0)
 
-16       at       17
+223      gg      224
          ||
-19       ta       18
+228      cc      227
+(Length = 2, Gap = 2 , Mismatch = 0)
+
+226      accttag      232
+         || || |
+241      tgtaaac      235
+(Length = 7, Gap = 2 , Mismatch = 2)
+
+228      ct      229
+         ||
+232      ga      231
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+229      tt      230
+         ||
+234      aa      233
+(Length = 2, Gap = 2 , Mismatch = 0)
+
+234      aca      236
+         |||
+241      tgt      239
+(Length = 3, Gap = 2 , Mismatch = 0)
+
+236      aaa      238
+         | |
+241      tgt      239
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+237      aatgt      241
+         | | |
+246      tcaaa      242
+(Length = 5, Gap = 0 , Mismatch = 2)
+
+238      atgt      241
+         |  |
+246      tcaa      243
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+240      gt      241
+         ||
+245      ca      244
+(Length = 2, Gap = 2 , Mismatch = 0)
+
+241      taaa      244
+         |  |
+249      agat      246
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+243      aact      246
+         | ||
+250      taga      247
+(Length = 4, Gap = 0 , Mismatch = 1)
+
+246      ta      247
+         ||
+251      at      250
+(Length = 2, Gap = 2 , Mismatch = 0)
+
+248      gat      250
+         | |
+253      cca      251
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+249      atacc      253
+         |  ||
+260      tcagg      256
+(Length = 5, Gap = 2 , Mismatch = 2)
+
+250      tacccc      255
+         ||  ||
+261      atcagg      256
+(Length = 6, Gap = 0 , Mismatch = 2)
+
+253      cccgga      258
+         || | |
+265      ggccat      260
+(Length = 6, Gap = 1 , Mismatch = 2)
+
+253      cc      254
+         ||
+257      gg      256
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+260      taccg      264
+         ||  |
+271      atacc      267
+(Length = 5, Gap = 2 , Mismatch = 2)
+
+261      acc      263
+         |||
+266      tgg      264
+(Length = 3, Gap = 0 , Mismatch = 0)
+
+264      gg      265
+         ||
+268      cc      267
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+267      ccat      270
+         | ||
+274      gcta      271
+(Length = 4, Gap = 0 , Mismatch = 1)
+
+271      atcg      274
+         | ||
+278      tcgc      275
+(Length = 4, Gap = 0 , Mismatch = 1)
+
+274      gc      275
+         ||
+277      cg      276
 (Length = 2, Gap = 0 , Mismatch = 0)
 
-17       ta       18
+279      tc      280
          ||
-21       at       20
+282      ag      281
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+286      ttc      288
+         |||
+291      aag      289
+(Length = 3, Gap = 0 , Mismatch = 0)
+
+287      tcg      289
+         | |
+294      acc      292
+(Length = 3, Gap = 2 , Mismatch = 1)
+
+293      ca      294
+         ||
+296      gt      295
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+296      gc      297
+         ||
+300      cg      299
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+298      gg      299
+         ||
+301      cc      300
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+301      ca      302
+         ||
+304      gt      303
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+303      tg      304
+         ||
+306      ac      305
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+304      gcag      307
+         || |
+313      cgcc      310
+(Length = 4, Gap = 2 , Mismatch = 1)
+
+304      gca      306
+         | |
+310      cct      308
+(Length = 3, Gap = 1 , Mismatch = 1)
+
+307      gtcccgc      313
+         | || ||
+320      ctggccg      314
+(Length = 7, Gap = 0 , Mismatch = 2)
+
+307      gtccc      311
+         | | |
+316      ccgcg      312
+(Length = 5, Gap = 0 , Mismatch = 2)
+
+307      gtcc      310
+         |  |
+315      cgcg      312
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+311      cgcgc      315
+         ||  |
+321      gctgg      317
+(Length = 5, Gap = 1 , Mismatch = 2)
+
+311      cgcg      314
+         |  |
+318      ggcc      315
+(Length = 4, Gap = 0 , Mismatch = 2)
+
+311      cg      312
+         ||
+314      gc      313
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+312      gcgcc      316
+         ||| |
+322      cgctg      318
+(Length = 5, Gap = 1 , Mismatch = 1)
+
+313      cg      314
+         ||
+317      gc      316
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+315      cc      316
+         ||
+318      gg      317
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+316      cg      317
+         ||
+321      gc      320
+(Length = 2, Gap = 2 , Mismatch = 0)
+
+319      tcg      321
+         | |
+324      aac      322
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+321      gcaat      325
+         ||| |
+331      cgtca      327
+(Length = 5, Gap = 1 , Mismatch = 1)
+
+321      gcaa      324
+         | ||
+328      catt      325
+(Length = 4, Gap = 0 , Mismatch = 1)
+
+324      atta      327
+         |  |
+332      tcgt      329
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+324      att      326
+         | |
+329      tca      327
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+325      ttactg      330
+         ||  ||
+338      aaacac      333
+(Length = 6, Gap = 2 , Mismatch = 2)
+
+329      tgct      332
+         |  |
+337      aaca      334
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+337      aac      339
+         | |
+344      tgg      342
+(Length = 3, Gap = 2 , Mismatch = 1)
+
+338      ac      339
+         ||
+341      tg      340
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+340      gtggt      344
+         | |||
+351      cgcca      347
+(Length = 5, Gap = 2 , Mismatch = 1)
+
+342      ggtgt      346
+         |  ||
+351      cgcca      347
+(Length = 5, Gap = 0 , Mismatch = 2)
+
+346      taccg      350
+         | | |
+355      aggtc      351
+(Length = 5, Gap = 0 , Mismatch = 2)
+
+347      accgc      351
+         | | |
+358      tagag      354
+(Length = 5, Gap = 2 , Mismatch = 2)
+
+347      acc      349
+         | |
+352      tcg      350
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+348      ccgc      351
+         |  |
+356      gagg      353
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+351      ct      352
+         ||
+356      ga      355
+(Length = 2, Gap = 2 , Mismatch = 0)
+
+354      gaga      357
+         |  |
+361      cgtt      358
+(Length = 4, Gap = 0 , Mismatch = 2)
+
+356      gattg      360
+         | | |
+365      ccagc      361
+(Length = 5, Gap = 0 , Mismatch = 2)
+
+360      gcg      362
+         | |
+366      ccc      364
+(Length = 3, Gap = 1 , Mismatch = 1)
+
+362      gaccc      366
+         | | |
+371      cagcg      367
+(Length = 5, Gap = 0 , Mismatch = 2)
+
+366      cg      367
+         ||
+369      gc      368
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+368      cg      369
+         ||
+373      gc      372
+(Length = 2, Gap = 2 , Mismatch = 0)
+
+372      cga      374
+         | |
+378      ggt      376
+(Length = 3, Gap = 1 , Mismatch = 1)
+
+384      at      385
+         ||
+387      ta      386
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+386      atgg      389
+         |  |
+394      tcac      391
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+387      tg      388
+         ||
+392      ac      391
+(Length = 2, Gap = 2 , Mismatch = 0)
+
+389      gtca      392
+         |  |
+397      cgct      394
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+389      gt      390
+         ||
+393      ca      392
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+390      tcac      393
+         |  |
+399      atcg      396
+(Length = 4, Gap = 2 , Mismatch = 2)
+
+393      ctcgct      398
+         | || |
+405      gcgcca      400
+(Length = 6, Gap = 1 , Mismatch = 2)
+
+394      tcg      396
+         | |
+399      atc      397
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+396      gct      398
+         | |
+401      caa      399
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+398      taac      401
+         |  |
+406      agcg      403
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+399      aaccg      403
+         || ||
+408      ttagc      404
+(Length = 5, Gap = 0 , Mismatch = 1)
+
+404      cga      406
+         | |
+409      gtt      407
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+405      gatt      408
+         |  |
+414      ccga      411
+(Length = 4, Gap = 2 , Mismatch = 2)
+
+409      gtag      412
+         || |
+418      caac      415
+(Length = 4, Gap = 2 , Mismatch = 1)
+
+410      tag      412
+         | |
+416      acc      414
+(Length = 3, Gap = 1 , Mismatch = 1)
+
+414      ccaac      418
+         | | |
+424      gctag      420
+(Length = 5, Gap = 1 , Mismatch = 2)
+
+417      acgga      421
+         |  ||
+426      tagct      422
+(Length = 5, Gap = 0 , Mismatch = 2)
+
+418      cggatc      423
+         |  |||
+429      gaatag      424
+(Length = 6, Gap = 0 , Mismatch = 2)
+
+427      aa      428
+         ||
+432      tt      431
+(Length = 2, Gap = 2 , Mismatch = 0)
+
+434      gggttac      440
+         || | ||
+449      ccgactg      443
+(Length = 7, Gap = 2 , Mismatch = 2)
+
+436      gt      437
+         ||
+440      ca      439
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+440      ctggtc      445
+         |||| |
+452      gacccg      447
+(Length = 6, Gap = 1 , Mismatch = 1)
+
+440      ctg      442
+         |||
+447      gac      445
+(Length = 3, Gap = 2 , Mismatch = 0)
+
+442      ggt      444
+         | |
+448      cga      446
+(Length = 3, Gap = 1 , Mismatch = 1)
+
+444      tcag      447
+         |  |
+451      accc      448
+(Length = 4, Gap = 0 , Mismatch = 2)
+
+445      cag      447
+         | |
+452      gac      450
+(Length = 3, Gap = 2 , Mismatch = 1)
+
+446      agccc      450
+         |  ||
+457      tatgg      453
+(Length = 5, Gap = 2 , Mismatch = 2)
+
+446      agcc      449
+         | ||
+455      tggg      452
+(Length = 4, Gap = 2 , Mismatch = 1)
+
+448      ccc      450
+         |||
+454      ggg      452
+(Length = 3, Gap = 1 , Mismatch = 0)
+
+452      gggta      456
+         | | |
+462      cgcgt      458
+(Length = 5, Gap = 1 , Mismatch = 2)
+
+453      ggta      456
+         |  |
+460      cgtt      457
+(Length = 4, Gap = 0 , Mismatch = 2)
+
+457      ttgcg      461
+         || ||
+466      aaggc      462
+(Length = 5, Gap = 0 , Mismatch = 1)
+
+459      gc      460
+         ||
+462      cg      461
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+463      ggaa      466
+         |  |
+472      cagt      469
+(Length = 4, Gap = 2 , Mismatch = 2)
+
+464      gaaa      467
+         |  |
+472      cagt      469
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+467      agt      469
+         |||
+473      tca      471
+(Length = 3, Gap = 1 , Mismatch = 0)
+
+469      tgact      473
+         |  ||
+478      ataga      474
+(Length = 5, Gap = 0 , Mismatch = 2)
+
+471      acta      474
+         ||||
+480      tgat      477
+(Length = 4, Gap = 2 , Mismatch = 0)
+
+472      ctagata      478
+         |||  ||
+486      gattcat      480
+(Length = 7, Gap = 1 , Mismatch = 2)
+
+478      agta      481
+         | ||
+487      tgat      484
+(Length = 4, Gap = 2 , Mismatch = 1)
+
+478      agt      480
+         |||
+483      tca      481
+(Length = 3, Gap = 0 , Mismatch = 0)
+
+481      actt      484
+         |  |
+488      ttga      485
+(Length = 4, Gap = 0 , Mismatch = 2)
+
+481      act      483
+         |||
+487      tga      485
+(Length = 3, Gap = 1 , Mismatch = 0)
+
+489      gctt      492
+         | ||
+496      ctaa      493
+(Length = 4, Gap = 0 , Mismatch = 1)
+
+490      ctta      493
+         |  |
+498      gtct      495
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+493      aatc      496
+         |  |
+501      tgtg      498
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+498      gtg      500
+         |||
+505      cac      503
+(Length = 3, Gap = 2 , Mismatch = 0)
+
+500      gtcc      503
+         |  |
+509      cgtg      506
+(Length = 4, Gap = 2 , Mismatch = 2)
+
+500      gt      501
+         ||
+505      ca      504
+(Length = 2, Gap = 2 , Mismatch = 0)
+
+503      cac      505
+         |||
+508      gtg      506
+(Length = 3, Gap = 0 , Mismatch = 0)
+
+507      tg      508
+         ||
+511      ac      510
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+509      cca      511
+         | |
+514      gct      512
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+511      atcgatt      517
+         ||| | |
+525      tagatta      519
+(Length = 7, Gap = 1 , Mismatch = 2)
+
+511      atcga      515
+         |  ||
+521      ttact      517
+(Length = 5, Gap = 1 , Mismatch = 2)
+
+511      atcga      515
+         ||  |
+520      tactt      516
+(Length = 5, Gap = 0 , Mismatch = 2)
+
+511      atc      513
+         |||
+516      tag      514
+(Length = 3, Gap = 0 , Mismatch = 0)
+
+515      attca      519
+         ||  |
+525      tagat      521
+(Length = 5, Gap = 1 , Mismatch = 2)
+
+515      at      516
+         ||
+520      ta      519
+(Length = 2, Gap = 2 , Mismatch = 0)
+
+517      tca      519
+         | |
+522      att      520
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+519      atta      522
+         |  |
+528      tctt      525
+(Length = 4, Gap = 2 , Mismatch = 2)
+
+519      att      521
+         | |
+526      tta      524
+(Length = 3, Gap = 2 , Mismatch = 1)
+
+521      taga      524
+         ||||
+529      atct      526
+(Length = 4, Gap = 1 , Mismatch = 0)
+
+523      gatt      526
+         |  |
+532      caca      529
+(Length = 4, Gap = 2 , Mismatch = 2)
+
+526      tct      528
+         | |
+531      aca      529
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+529      acacc      533
+         ||  |
+540      tgcag      536
+(Length = 5, Gap = 2 , Mismatch = 2)
+
+531      acccc      535
+         ||  |
+540      tgcag      536
+(Length = 5, Gap = 0 , Mismatch = 2)
+
+534      ccgac      538
+         | |||
+543      gcctg      539
+(Length = 5, Gap = 0 , Mismatch = 1)
+
+535      cg      536
+         ||
+539      gc      538
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+536      gacg      539
+         |  |
+544      cgcc      541
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+538      cg      539
+         ||
+543      gc      542
+(Length = 2, Gap = 2 , Mismatch = 0)
+
+540      tcc      542
+         | |
+545      acg      543
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+541      ccgca      545
+         ||  |
+551      gggtt      547
+(Length = 5, Gap = 1 , Mismatch = 2)
+
+541      ccgca      545
+         ||  |
+550      ggttt      546
+(Length = 5, Gap = 0 , Mismatch = 2)
+
+542      cgca      545
+         | ||
+551      gggt      548
+(Length = 4, Gap = 2 , Mismatch = 1)
+
+550      gg      551
+         ||
+555      cc      554
+(Length = 2, Gap = 2 , Mismatch = 0)
+
+552      tgcca      556
+         |  ||
+562      attgt      558
+(Length = 5, Gap = 1 , Mismatch = 2)
+
+552      tg      553
+         ||
+556      ac      555
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+554      cca      556
+         | |
+559      gtt      557
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+559      gttaag      564
+         |  |||
+572      cctttc      567
+(Length = 6, Gap = 2 , Mismatch = 2)
+
+560      tt      561
+         ||
+563      aa      562
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+562      aagg      565
+         || |
+570      tttc      567
+(Length = 4, Gap = 1 , Mismatch = 1)
+
+563      aggg      566
+         |  |
+570      tttc      567
+(Length = 4, Gap = 0 , Mismatch = 2)
+
+570      tcct      573
+         || |
+577      agaa      574
+(Length = 4, Gap = 0 , Mismatch = 1)
+
+572      ctaa      575
+         | ||
+581      gttt      578
+(Length = 4, Gap = 2 , Mismatch = 1)
+
+572      ct      573
+         ||
+576      ga      575
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+575      aga      577
+         | |
+580      ttt      578
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+581      gc      582
+         ||
+586      cg      585
+(Length = 2, Gap = 2 , Mismatch = 0)
+
+582      cgtgct      587
+         | || |
+595      gaacta      590
+(Length = 6, Gap = 2 , Mismatch = 2)
+
+584      tgc      586
+         | |
+590      atg      588
+(Length = 3, Gap = 1 , Mismatch = 1)
+
+586      ctgta      590
+         ||  |
+595      gaact      591
+(Length = 5, Gap = 0 , Mismatch = 2)
+
+587      tgtatc      592
+         |||  |
+600      acactg      595
+(Length = 6, Gap = 2 , Mismatch = 2)
+
+587      tgtat      591
+         ||  |
+598      actga      594
+(Length = 5, Gap = 2 , Mismatch = 2)
+
+588      gtatca      593
+         || | |
+601      cacact      596
+(Length = 6, Gap = 2 , Mismatch = 2)
+
+595      gt      596
+         ||
+599      ca      598
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+597      caca      600
+         |  |
+605      gcat      602
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+599      cact      602
+         |  |
+606      ggca      603
+(Length = 4, Gap = 0 , Mismatch = 2)
+
+600      actac      604
+         ||  |
+610      tggag      606
+(Length = 5, Gap = 1 , Mismatch = 2)
+
+601      ctac      604
+         || |
+608      gagg      605
+(Length = 4, Gap = 0 , Mismatch = 1)
+
+604      cgga      607
+         ||||
+613      gcct      610
+(Length = 4, Gap = 2 , Mismatch = 0)
+
+608      ggtccg      613
+         || | |
+621      cctgcc      616
+(Length = 6, Gap = 2 , Mismatch = 2)
+
+608      ggtcc      612
+         ||  |
+617      ccgag      613
+(Length = 5, Gap = 0 , Mismatch = 2)
+
+608      ggtc      611
+         | ||
+616      cgag      613
+(Length = 4, Gap = 1 , Mismatch = 1)
+
+608      gg      609
+         ||
+612      cc      611
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+612      cgagccg      618
+         ||||| |
+627      gctcgcc      621
+(Length = 7, Gap = 2 , Mismatch = 1)
+
+612      cgagcc      617
+         || | |
+623      gccctg      618
+(Length = 6, Gap = 0 , Mismatch = 2)
+
+613      gagc      616
+         |  |
+621      cctg      618
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+617      cgtcc      621
+         ||  |
+627      gctcg      623
+(Length = 5, Gap = 1 , Mismatch = 2)
+
+619      tcccg      623
+         ||  |
+628      agctc      624
+(Length = 5, Gap = 0 , Mismatch = 2)
+
+622      cg      623
+         ||
+627      gc      626
+(Length = 2, Gap = 2 , Mismatch = 0)
+
+624      ctcga      628
+         ||  |
+633      gaatt      629
+(Length = 5, Gap = 0 , Mismatch = 2)
+
+625      tcgatt      630
+         ||  ||
+636      agagaa      631
+(Length = 6, Gap = 0 , Mismatch = 2)
+
+625      tc      626
+         ||
+628      ag      627
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+630      taagaga      636
+         | || ||
+644      actccct      638
+(Length = 7, Gap = 1 , Mismatch = 2)
+
+635      gaa      637
+         | |
+640      cct      638
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+637      atccct      642
+         |||  |
+649      tagcta      644
+(Length = 6, Gap = 1 , Mismatch = 2)
+
+644      atcga      648
+         |  ||
+653      tttct      649
+(Length = 5, Gap = 0 , Mismatch = 2)
+
+644      atc      646
+         |||
+649      tag      647
+(Length = 3, Gap = 0 , Mismatch = 0)
+
+646      cgatctt      652
+         ||  |||
+661      gccggaa      655
+(Length = 7, Gap = 2 , Mismatch = 2)
+
+650      cttt      653
+         | ||
+658      ggaa      655
+(Length = 4, Gap = 1 , Mismatch = 1)
+
+652      tttaag      657
+         |||  |
+664      aaagcc      659
+(Length = 6, Gap = 1 , Mismatch = 2)
+
+653      ttaagg      658
+         ||  ||
+664      aaagcc      659
+(Length = 6, Gap = 0 , Mismatch = 2)
+
+653      tt      654
+         ||
+656      aa      655
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+665      ggggtg      670
+         | || |
+676      cgccgc      671
+(Length = 6, Gap = 0 , Mismatch = 2)
+
+665      gggg      668
+         || |
+674      ccgc      671
+(Length = 4, Gap = 2 , Mismatch = 1)
+
+666      gggtgcg      672
+         || ||||
+680      ccaacgc      674
+(Length = 7, Gap = 1 , Mismatch = 1)
+
+667      ggtgc      671
+         |  ||
+676      cgccg      672
+(Length = 5, Gap = 0 , Mismatch = 2)
+
+672      gccg      675
+         |  |
+679      caac      676
+(Length = 4, Gap = 0 , Mismatch = 2)
+
+672      gc      673
+         ||
+676      cg      675
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+675      gcaac      679
+         |  ||
+685      ctatg      681
+(Length = 5, Gap = 1 , Mismatch = 2)
+
+677      aacc      680
+         |  |
+684      tatg      681
+(Length = 4, Gap = 0 , Mismatch = 2)
+
+679      ccgta      683
+         | | |
+688      gtcct      684
+(Length = 5, Gap = 0 , Mismatch = 2)
+
+681      gtatcct      687
+         | ||| |
+695      cttagca      689
+(Length = 7, Gap = 1 , Mismatch = 2)
+
+684      tc      685
+         ||
+689      ag      688
+(Length = 2, Gap = 2 , Mismatch = 0)
+
+690      cgat      693
+         |  |
+699      ggga      696
+(Length = 4, Gap = 2 , Mismatch = 2)
+
+691      ga      692
+         ||
+695      ct      694
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+694      tcagg      698
+         |  ||
+705      acgcc      701
+(Length = 5, Gap = 2 , Mismatch = 2)
+
+695      cagggg      700
+         || | |
+707      gtacgc      702
+(Length = 6, Gap = 1 , Mismatch = 2)
+
+697      gggg      700
+         | ||
+704      cgcc      701
+(Length = 4, Gap = 0 , Mismatch = 1)
+
+698      gg      699
+         ||
+702      cc      701
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+700      gc      701
+         ||
+704      cg      703
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+703      gcatg      707
+         ||  |
+712      cgccc      708
+(Length = 5, Gap = 0 , Mismatch = 2)
+
+703      gca      705
+         |||
+708      cgt      706
+(Length = 3, Gap = 0 , Mismatch = 0)
+
+707      gccc      710
+         |  |
+714      ctcg      711
+(Length = 4, Gap = 0 , Mismatch = 2)
+
+707      gc      708
+         ||
+712      cg      711
+(Length = 2, Gap = 2 , Mismatch = 0)
+
+719      gt      720
+         ||
+722      ca      721
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+721      acct      724
+         || |
+729      tgta      726
+(Length = 4, Gap = 1 , Mismatch = 1)
+
+722      cctca      726
+         |  ||
+731      gttgt      727
+(Length = 5, Gap = 0 , Mismatch = 2)
+
+725      catgttg      731
+         | || ||
+738      gaactac      732
+(Length = 7, Gap = 0 , Mismatch = 2)
+
+729      ttgcat      734
+         || | |
+742      aatgga      737
+(Length = 6, Gap = 2 , Mismatch = 2)
+
+730      tgca      733
+         |  |
+737      aact      734
+(Length = 4, Gap = 0 , Mismatch = 2)
+
+732      cat      734
+         | |
+738      gaa      736
+(Length = 3, Gap = 1 , Mismatch = 1)
+
+733      atc      735
+         | |
+740      tgg      738
+(Length = 3, Gap = 2 , Mismatch = 1)
+
+737      aggt      740
+         |  |
+745      tgta      742
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+738      ggta      741
+         |  |
+746      ctgt      743
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+739      gtaa      742
+         |  |
+746      ctgt      743
+(Length = 4, Gap = 0 , Mismatch = 2)
+
+745      tc      746
+         ||
+748      ag      747
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+746      cgagg      750
+         | | |
+756      gttgc      752
+(Length = 5, Gap = 1 , Mismatch = 2)
+
+751      ac      752
+         ||
+754      tg      753
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+753      gttg      756
+         |  |
+760      cttc      757
+(Length = 4, Gap = 0 , Mismatch = 2)
+
+759      tctt      762
+         |  |
+768      aata      765
+(Length = 4, Gap = 2 , Mismatch = 2)
+
+762      tccat      766
+         | | |
+771      aagaa      767
+(Length = 5, Gap = 0 , Mismatch = 2)
+
+772      ggaa      775
+         || |
+779      ccct      776
+(Length = 4, Gap = 0 , Mismatch = 1)
+
+772      gga      774
+         |||
+778      cct      776
+(Length = 3, Gap = 1 , Mismatch = 0)
+
+776      tcc      778
+         | |
+783      aag      781
+(Length = 3, Gap = 2 , Mismatch = 1)
+
+782      aac      784
+         | |
+787      tag      785
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+785      gat      787
+         | |
+790      caa      788
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+787      taaca      791
+         ||  |
+797      atact      793
+(Length = 5, Gap = 1 , Mismatch = 2)
+
+794      catacc      799
+         || |||
+805      gtgtgg      800
+(Length = 6, Gap = 0 , Mismatch = 1)
+
+808      ttctag      813
+         | | ||
+819      acgttc      814
+(Length = 6, Gap = 0 , Mismatch = 2)
+
+810      ct      811
+         ||
+813      ga      812
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+813      gc      814
+         ||
+818      cg      817
+(Length = 2, Gap = 2 , Mismatch = 0)
+
+814      cttgca      819
+         |||  |
+825      gaaatt      820
+(Length = 6, Gap = 0 , Mismatch = 2)
+
+816      tgca      819
+         |  |
+824      aaat      821
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+816      tg      817
+         ||
+819      ac      818
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+818      catt      821
+         |  |
+827      gaga      824
+(Length = 4, Gap = 2 , Mismatch = 2)
+
+818      catt      821
+         | ||
+825      gaaa      822
+(Length = 4, Gap = 0 , Mismatch = 1)
+
+820      tt      821
+         ||
+824      aa      823
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+828      aaaaaga      834
+         ||  |||
+842      ttagtct      836
+(Length = 7, Gap = 1 , Mismatch = 2)
+
+830      aaag      833
+         | ||
+838      tctc      835
+(Length = 4, Gap = 1 , Mismatch = 1)
+
+834      actc      837
+         | ||
+842      ttag      839
+(Length = 4, Gap = 1 , Mismatch = 1)
+
+836      tctga      840
+         ||  |
+845      agttt      841
+(Length = 5, Gap = 0 , Mismatch = 2)
+
+838      tgatt      842
+         | | |
+849      attca      845
+(Length = 5, Gap = 2 , Mismatch = 2)
+
+838      tga      840
+         | |
+845      agt      843
+(Length = 3, Gap = 2 , Mismatch = 1)
+
+840      attt      843
+         |  |
+848      ttca      845
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+841      tttg      844
+         |  |
+849      attc      846
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+843      tga      845
+         | |
+849      att      847
+(Length = 3, Gap = 1 , Mismatch = 1)
+
+844      gacttac      850
+         ||||  |
+859      ctgatgg      853
+(Length = 7, Gap = 2 , Mismatch = 2)
+
+844      gact      847
+         || |
+852      ctca      849
+(Length = 4, Gap = 1 , Mismatch = 1)
+
+845      actta      849
+         ||  |
+855      tggct      851
+(Length = 5, Gap = 1 , Mismatch = 2)
+
+853      ggta      856
+         || |
+861      ccct      858
+(Length = 4, Gap = 1 , Mismatch = 1)
+
+854      gtag      857
+         |  |
+862      cccc      859
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+859      cccc      862
+         |  |
+866      gcag      863
+(Length = 4, Gap = 0 , Mismatch = 2)
+
+860      cccg      863
+         | ||
+868      gcgc      865
+(Length = 4, Gap = 1 , Mismatch = 1)
+
+862      cgacg      866
+         || ||
+871      gcagc      867
+(Length = 5, Gap = 0 , Mismatch = 1)
+
+864      acgcg      868
+         |  ||
+874      tatgc      870
+(Length = 5, Gap = 1 , Mismatch = 2)
+
+868      gacgtat      874
+         ||| | |
+882      ctgtaga      876
+(Length = 7, Gap = 1 , Mismatch = 2)
+
+869      ac      870
+         ||
+872      tg      871
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+870      cgta      873
+         | ||
+877      gaat      874
+(Length = 4, Gap = 0 , Mismatch = 1)
+
+875      aaga      878
+         | ||
+884      tgct      881
+(Length = 4, Gap = 2 , Mismatch = 1)
+
+876      aga      878
+         | |
+881      tgt      879
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+877      gatg      880
+         || |
+885      ctgc      882
+(Length = 4, Gap = 1 , Mismatch = 1)
+
+879      tgtcg      883
+         |  ||
+889      aaggc      885
+(Length = 5, Gap = 1 , Mismatch = 2)
+
+880      gtc      882
+         | |
+885      ctg      883
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+881      tcgtc      885
+         |  ||
+891      aaaag      887
+(Length = 5, Gap = 1 , Mismatch = 2)
+
+890      aaga      893
+         |  |
+898      tcgt      895
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+891      agaa      894
+         || |
+898      tcgt      895
+(Length = 4, Gap = 0 , Mismatch = 1)
+
+896      gc      897
+         ||
+900      cg      899
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+897      ctgct      901
+         | | |
+906      gccaa      902
+(Length = 5, Gap = 0 , Mismatch = 2)
+
+899      gct      901
+         | |
+905      cca      903
+(Length = 3, Gap = 1 , Mismatch = 1)
+
+910      caataat      916
+         ||||  |
+923      gttacca      917
+(Length = 7, Gap = 0 , Mismatch = 2)
+
+911      aat      913
+         | |
+916      taa      914
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+912      at      913
+         ||
+916      ta      915
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+913      ta      914
+         ||
+917      at      916
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+918      cca      920
+         |||
+924      ggt      922
+(Length = 3, Gap = 1 , Mismatch = 0)
+
+918      cca      920
+         | |
+923      gtt      921
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+930      tc      931
+         ||
+934      ag      933
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+935      gtg      937
+         | |
+942      ctc      940
+(Length = 3, Gap = 2 , Mismatch = 1)
+
+935      gt      936
+         ||
+939      ca      938
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+937      ga      938
+         ||
+942      ct      941
+(Length = 2, Gap = 2 , Mismatch = 0)
+
+939      cctc      942
+         |  |
+948      gatg      945
+(Length = 4, Gap = 2 , Mismatch = 2)
+
+940      ctcc      943
+         || |
+948      gatg      945
+(Length = 4, Gap = 1 , Mismatch = 1)
+
+941      tcct      944
+         | ||
+950      acga      947
+(Length = 4, Gap = 2 , Mismatch = 1)
+
+948      gcat      951
+         |  |
+956      ctaa      953
+(Length = 4, Gap = 1 , Mismatch = 2)
+
+949      cata      952
+         |  |
+958      ggct      955
+(Length = 4, Gap = 2 , Mismatch = 2)
+
+950      at      951
+         ||
+955      ta      954
+(Length = 2, Gap = 2 , Mismatch = 0)
+
+953      aatcg      957
+         |  ||
+964      tcggc      960
+(Length = 5, Gap = 2 , Mismatch = 2)
+
+954      atcgg      958
+         | | |
+964      tcggc      960
+(Length = 5, Gap = 1 , Mismatch = 2)
+
+954      atc      956
+         | |
+959      tgg      957
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+958      gtc      960
+         | |
+963      cgg      961
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+959      tcgg      962
+         |  |
+966      aatc      963
+(Length = 4, Gap = 0 , Mismatch = 2)
+
+959      tcg      961
+         | |
+965      atc      963
+(Length = 3, Gap = 1 , Mismatch = 1)
+
+963      ctaata      968
+         || | |
+975      gaattt      970
+(Length = 6, Gap = 1 , Mismatch = 2)
+
+963      cta      965
+         |||
+969      gat      967
+(Length = 3, Gap = 1 , Mismatch = 0)
+
+965      aat      967
+         | |
+970      tga      968
+(Length = 3, Gap = 0 , Mismatch = 1)
+
+967      tagt      970
+         |  |
+976      agaa      973
+(Length = 4, Gap = 2 , Mismatch = 2)
+
+969      gttt      972
+         || |
+977      caga      974
+(Length = 4, Gap = 1 , Mismatch = 1)
+
+970      tt      971
+         ||
+974      aa      973
+(Length = 2, Gap = 1 , Mismatch = 0)
+
+971      tt      972
+         ||
+974      aa      973
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+972      taagac      977
+         ||| ||
+983      attttg      978
+(Length = 6, Gap = 0 , Mismatch = 1)
+
+973      aag      975
+         | |
+979      tgc      977
+(Length = 3, Gap = 1 , Mismatch = 1)
+
+976      acgtt      980
+         | | |
+987      tacta      983
+(Length = 5, Gap = 2 , Mismatch = 2)
+
+978      gttttat      984
+         | | |||
+992      ccacata      986
+(Length = 7, Gap = 1 , Mismatch = 2)
+
+978      gtttta      983
+         || | |
+989      catact      984
+(Length = 6, Gap = 0 , Mismatch = 2)
+
+979      tttt      982
+         |  |
+986      acta      983
+(Length = 4, Gap = 0 , Mismatch = 2)
+
+989      cac      991
+         | |
+995      gcg      993
+(Length = 3, Gap = 1 , Mismatch = 1)
+
+992      cg      993
+         ||
+995      gc      994
+(Length = 2, Gap = 0 , Mismatch = 0)
+
+996      ac      997
+         ||
+1000     tg      999
 (Length = 2, Gap = 1 , Mismatch = 0)
 
 

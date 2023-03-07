@@ -2,8 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/api/find-ir": "pages/api/find-ir.js",
+  "/api/getFirebaseFileContent": "pages/api/getFirebaseFileContent.js",
+  "/api/insert-data": "pages/api/insert-data.js",
   "/findIR": "pages/findIR.js",
   "/api/update-file": "pages/api/update-file.js",
-  "/api/insert-data": "pages/api/insert-data.js"
+  "/api/find-ir": "pages/api/find-ir.js"
 }
