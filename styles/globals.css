@@ -1,0 +1,322 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.container {
+	width: calc(100% - 100px);
+	min-height: 50vh;
+	margin: 50px;
+	padding: 50px;
+	backdrop-filter: blur(8px);
+	box-shadow: 0 0 10px #00000046;
+	border-radius: 10px;
+	position: relative;
+	font: "normal 40px/2 Segoe Print,Verdana, Helvetica";
+}
+
+.container::after {
+	box-shadow: inset 0 0 10px #ffffff8e;
+	content: "";
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background-color: #f6f6db;
+	z-index: -5;
+	top: 0;
+	left: 0;
+	border-bottom-right-radius: 100%;
+	border-top-left-radius: 5px;
+}
+
+.container::before {
+	box-shadow: inset 0 0 10px #ffffff;
+	content: "";
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	background-color: #f6f6db;
+	z-index: -5;
+	bottom: 0;
+	right: 0;
+	border-top-left-radius: 100%;
+	border-bottom-right-radius: 5px;
+}
+
+.my-title {
+	text-shadow: "#f9fafb 0px 1px 0px, #0d6efd 3px 3px 3px";
+	text-align: "center";
+	color: "#666";
+	margin: "0 0 30px 0";
+	letter-spacing: "4px";
+	font: "normal 40px/2 Segoe Print,Verdana, Helvetica";
+	position: "relative";
+}
+
+/* The overlay effect with black background */
+.overlay {
+	height: 100%;
+	width: 100%;
+	display: none;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	/* backdrop-filter: blur(50px); */
+	transition: all 0.5s ease;
+}
+
+/* The content */
+.overlay-content {
+	position: relative;
+	top: 45%;
+	transform: translateY(-50%);
+	width: 80%;
+	text-align: center;
+	margin: auto;
+	padding: 30px;
+	border-radius: 10px;
+	/* background-color: #f4f4f4; 
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); */
+}
+
+/* Close button */
+.overlay .closebtn {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 30px;
+	cursor: pointer;
+	color: #000000;
+}
+
+.overlay .closebtn:hover {
+	color: #444;
+}
+
+/* Style the search field */
+.overlay input[type=text] {
+	padding: 15px;
+	font-size: 17px;
+	border: none;
+	float: left;
+	width: 80%;
+	height: auto;
+	background: #fff;
+	border-radius: 0px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.overlay input[type=text]:hover {
+	background: #f5f5f5;
+}
+
+/* Style the submit button */
+.overlay button {
+	float: left;
+	width: 20%;
+	height: 3%;
+	padding: 10px;
+	background: #5f9ea0;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 0px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.overlay button:hover {
+	background: #caad7a;
+}
+
+
+#input_reset {
+	display: none;
+	position: absolute;
+	/* top: 52px; */
+	top: 80%;
+	right: 23%;
+	margin: 0;
+	border: 0;
+	background: none;
+	cursor: pointer;
+	padding: 0;
+}
+
+#input_reset:focus {
+	outline: 0;
+}
+
+.apply-background {
+	background-image: url('/bg.jpg');
+}
+
+.btn1 {
+	/* font-family: arial; */
+	font-weight: bold;
+	color: #FFFFFF !important;
+	font-size: 14px;
+	margin-top: 4%;
+	padding: 10px 20px;
+	border: 0px solid #F6F6DB;
+	border-radius: 12px;
+	background: #CAAD7E;
+	width: 100%;
+}
+
+.btn1:hover {
+	cursor: pointer;
+	background-color: #eac486
+}
+
+.btn2 {
+	/* font-family: arial; */
+	font-weight: bold;
+	color: #FFFFFF !important;
+	/* font-size: 14px; */
+	padding: 10px 20px;
+	margin: 0%;
+	border: 0px solid #F6F6DB;
+	border-radius: 26px;
+	background: #CAAD7E;
+}
+
+.btn2:hover {
+	cursor: pointer;
+	background-color: #eac486
+}
+
+.btn3 {
+	width: 100%;
+	padding: 10px;
+	margin-top: 20px;
+	background-color: #a7d489;
+	color: #1d1d1f;
+	font-size: 24px;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+
+.btn3:hover {
+	background-color: #c4dea4;
+}
+
+
+
+/* Table */
+.myTable {
+	border: 1px solid #C4DEA4;
+	background-color: #ffffff;
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+.myTable td,
+.myTable th {
+	border: 1px solid #AAAAAA;
+	padding: 5px 5px;
+}
+
+.myTable tbody td {
+	font-size: 13px;
+	color: #333333;
+}
+
+.myTable tr:nth-child(even) {
+	background: #F6F6DB;
+}
+
+.myTable thead {
+	background: #CAAD7E;
+}
+
+.myTable thead th {
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: left;
+	border-left: 2px solid #D0E4F5;
+}
+
+.myTable thead th:first-child {
+	border-left: none;
+}
+
+.myTable tfoot {
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: #CAAD7E;
+	background: -moz-linear-gradient(top, #d7c19e 0%, #cfb58b 66%, #CAAD7E 100%);
+	background: -webkit-linear-gradient(top, #d7c19e 0%, #cfb58b 66%, #CAAD7E 100%);
+	background: linear-gradient(to bottom, #d7c19e 0%, #cfb58b 66%, #CAAD7E 100%);
+	opacity: 2;
+}
+
+.myTable tfoot td {
+	font-size: 14px;
+}
+
+.myTable tfoot .links {
+	align-items: right;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.myTable tfoot .links button {
+	display: inline-block;
+	background: #A7D489;
+	color: #000000;
+	padding: 2px 8px;
+	border-radius: 5px;
+}
+
+.myButton {
+	background-color: #caad7e;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.myButton:hover {
+	background-color: #ecbc9c;
+}
+
+.myButton:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+
+.my-div {
+	margin-top: 7px;
+}
+
+.my-div:hover {
+	/* background-color: lightgray; */
+	color: black;
+	cursor: pointer;
+}
