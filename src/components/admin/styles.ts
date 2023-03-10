@@ -10,7 +10,15 @@ const useStyles = createStyles((theme) => ({
 		whiteSpace: 'pre-wrap',
 		wordBreak: 'break-word',
 	},
-
+	noResults: {
+		backgroundColor: '#f8d7da',
+		color: '#721c24',
+		padding: '10px',
+		borderRadius: '5px',
+		fontWeight: 'bold',
+		textAlign: 'center',
+		marginTop: '20px',
+	},
 	inner: {
 		display: 'flex',
 		justifyContent: 'space-between',

@@ -131,10 +131,11 @@ export function AdminHome() {
 
 		axios.put('../api/update-data', {
 			id: selectedRow?.id,
-			status: 1,
+			status: 0,
 		})
 			.then((response) => {
 				// console.log(response);
+				router.reload();
 				showNotification({
 					title: "Update Status",
 					message: "The analysis is accepted successfully.",
@@ -169,6 +170,8 @@ export function AdminHome() {
 		})
 			.then((response) => {
 				// console.log(response);
+				router.reload();
+
 				showNotification({
 					title: "Update Status",
 					message: "The analysis is rejected successfully.",
@@ -207,47 +210,51 @@ export function AdminHome() {
 
 				</Text>
 
-				<Paper withBorder shadow="md" p={30} mt={30} radius="md">
+				{data.length ? (
+					<Paper withBorder shadow="md" p={30} mt={30} radius="md">
 
 
-					<table ref={tableRef} className="myTable">
-						<thead>
-							<tr>
-								<th>Sequence name</th>
-								<th>Max Gap</th>
-								<th>Max mismatch</th>
-								<th>Min length</th>
-								<th>Max length</th>
-
-							</tr>
-						</thead>
-						<tbody>
-							{data.map((item) => (
-								<tr key={item.id} onClick={() => handleRowClick(item)}>
-									<td>{item.seq_name}</td>
-									<td>{item.max_gap}</td>
-									<td>{item.max_mis}</td>
-									<td>{item.min_len}</td>
-									<td>{item.max_len}</td>
-								</tr>
-							))}
-						</tbody>
-
-						{totalPages >= 2 && (
-							<tfoot>
+						<table ref={tableRef} className="myTable">
+							<thead>
 								<tr>
-									<td colSpan={5}>
-										<div className="links">
-											<ul style={{ listStyleType: 'none', display: 'flex', flex: 'horizontal' }}>{paginationItems}</ul>
-										</div></td>
+									<th>Sequence name</th>
+									<th>Max Gap</th>
+									<th>Max mismatch</th>
+									<th>Min length</th>
+									<th>Max length</th>
 
 								</tr>
-							</tfoot>
-						)}
+							</thead>
+							<tbody>
+								{data.map((item) => (
+									<tr key={item.id} onClick={() => handleRowClick(item)}>
+										<td>{item.seq_name}</td>
+										<td>{item.max_gap}</td>
+										<td>{item.max_mis}</td>
+										<td>{item.min_len}</td>
+										<td>{item.max_len}</td>
+									</tr>
+								))}
+							</tbody>
 
-					</table>
+							{totalPages >= 2 && (
+								<tfoot>
+									<tr>
+										<td colSpan={5}>
+											<div className="links">
+												<ul style={{ listStyleType: 'none', display: 'flex', flex: 'horizontal' }}>{paginationItems}</ul>
+											</div></td>
 
-				</Paper>
+									</tr>
+								</tfoot>
+							)}
+
+						</table>
+
+					</Paper>
+				) : (
+					<div className={classes.noResults} >No pending requests...</div>
+				)}
 
 			</Container>
 

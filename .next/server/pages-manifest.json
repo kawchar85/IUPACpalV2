@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/findIR": "pages/findIR.js",
-  "/library": "pages/library.js",
-  "/api/get-data": "pages/api/get-data.js"
+  "/admin-mt19937/home": "pages/admin-mt19937/home.js",
+  "/api/get-data-admin": "pages/api/get-data-admin.js"
 }

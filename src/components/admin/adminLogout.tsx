@@ -3,7 +3,6 @@ import { showNotification } from '@mantine/notifications';
 import Cookies from "js-cookie";
 import { useEffect } from 'react';
 
-
 export function AdminLogout() {
 	const router = useRouter();
 
@@ -13,6 +12,7 @@ export function AdminLogout() {
 		router.push('/');
 		if (isLoggedIn) {
 			Cookies.remove("admin");
+			router.reload();
 
 			showNotification({
 				title: "Logged Out",
