@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/admin-mt19937/home": [
+    "/findIR": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/admin-mt19937/home.js"
+      "static/chunks/pages/findIR.js"
     ]
   },
   "ampFirstPages": []

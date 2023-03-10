@@ -19,6 +19,7 @@ import styles from "../../../styles/toggle.module.css";
 import { uploadFileCallBack } from "src/helpers/uploadHelper";
 import { basePath } from "src/helpers/projectDirectory";
 import { Card } from '@mantine/core';
+import DisplayResult from "../displayResult";
 
 
 const getData = async () => {
@@ -461,12 +462,7 @@ export function IRForm() {
 					<img src='/findIR.png' style={{ height: '45%', width: '40%', marginTop: '15%' }} />
 				</div>
 				{ir.length > 0 && (
-					<Card key={1} style={{ marginBottom: '1rem' }}>
-						<Text weight={500} size="lg">
-							<Code className={classes.code} block>{ir}</Code>
-						</Text>
-						<Text></Text>
-					</Card>
+					<DisplayResult code={ir} cnt={20} />
 				)}
 
 			</Container>

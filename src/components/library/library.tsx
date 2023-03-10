@@ -16,6 +16,7 @@ import {
 	Tabs,
 	Loader,
 } from "@mantine/core";
+import DisplayResult from '../displayResult';
 
 interface Data {
 	id: number;
@@ -193,7 +194,7 @@ export function Library() {
 				</Tabs.List>
 
 				<Tabs.Panel value="input" pt="xs">
-					{inputContent.length ? (<Code className={classes.code} block>{inputContent}</Code>) :
+					{inputContent.length ? (<DisplayResult code={inputContent} cnt={20} />) :
 						(<div dangerouslySetInnerHTML={{ __html: '<img src="/loading-circle.gif" alt="loading..." />' }}></div>)}
 					{/* <Code className={classes.code} block>{inputContent}</Code> */}
 
@@ -202,7 +203,7 @@ export function Library() {
 				<Tabs.Panel value="output" pt="xs">
 					{/* <Code className={classes.code} block>{outputContent}</Code> */}
 					{outputContent.length ?
-						(<Code className={classes.code} block>{outputContent}</Code>) :
+						(<DisplayResult code={outputContent} cnt={20} />) :
 						(<div dangerouslySetInnerHTML={{ __html: '<img src="/loading-circle.gif" alt="loading..." />' }}></div>)}
 				</Tabs.Panel>
 

@@ -19,6 +19,7 @@ import {
 import Cookies from 'js-cookie';
 import router from 'next/router';
 import { showNotification } from '@mantine/notifications';
+import DisplayResult from '../displayResult';
 
 interface Data {
 	id: number;
@@ -269,7 +270,8 @@ export function AdminHome() {
 				</Tabs.List>
 
 				<Tabs.Panel value="input" pt="xs">
-					{inputContent.length ? (<Code className={classes.code} block>{inputContent}</Code>) :
+					{/* (<Code className={classes.code} block>{inputContent}</Code>) */}
+					{inputContent.length ? (<DisplayResult code={inputContent} cnt={20} />) :
 						(<div dangerouslySetInnerHTML={{ __html: '<img src="/loading-circle.gif" alt="loading..." />' }}></div>)}
 
 
@@ -279,7 +281,7 @@ export function AdminHome() {
 				<Tabs.Panel value="output" pt="xs">
 
 					{outputContent.length ?
-						(<Code className={classes.code} block>{outputContent}</Code>) :
+						(<DisplayResult code={outputContent} cnt={20} />) :
 						(<div dangerouslySetInnerHTML={{ __html: '<img src="/loading-circle.gif" alt="loading..." />' }}></div>)}
 
 				</Tabs.Panel>

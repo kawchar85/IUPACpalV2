@@ -320,3 +320,77 @@ a {
 	color: black;
 	cursor: pointer;
 }
+
+
+/* Display IR */
+
+/* Set the font family and size */
+pre,
+code {
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 14px;
+}
+
+/* Set the color of the code text */
+code {
+	color: #333;
+}
+
+.code-container {
+	background-color: #f6f6db;
+	border: 1px solid #d5e7b8;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 0.5%;
+	/* overflow: hidden; */
+}
+
+.code {
+
+	background-color: #f6f6db;
+	/* font-family: "Courier New", Courier, monospace; */
+	font-size: 14px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	max-height: 450px;
+	/* maximum height of code block */
+	transition: max-height 0.5s ease-in-out;
+}
+
+/* Set the color of the see more/less buttons */
+.show-more,
+.show-less {
+	background-color: #caad73;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-top: 10px;
+	transition: background-color 0.3s ease-in-out;
+}
+
+/* Set the color of the see more/less buttons on hover */
+.show-more:hover,
+.show-less:hover {
+	background-color: #d5e7b8;
+	color: #000000;
+}
+
+/* Spacing */
+.show-more svg,
+.show-less svg {
+	margin-left: 0.5rem;
+}
+
+.code-container .show-more {
+	margin-right: 0.5rem;
+}
+
+.code-container .show-less {
+	margin-left: 0.5rem;
+}
