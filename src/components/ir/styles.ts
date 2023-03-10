@@ -9,6 +9,9 @@ const useStyles = createStyles((theme) => ({
 		overflowX: 'auto',
 		whiteSpace: 'pre-wrap',
 		wordBreak: 'break-word',
+		display: 'block',
+		backgroundColor: '#f0fff0',
+		color: '#006400',
 	},
 
 	inner: {

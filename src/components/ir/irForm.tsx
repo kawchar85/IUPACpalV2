@@ -13,7 +13,6 @@ import React, { useEffect, useState } from 'react';
 import { FileInput, useMantineTheme } from '@mantine/core';
 import { showNotification, updateNotification } from '@mantine/notifications';
 import useStyles from './styles';
-import image from '../../assets/find-ir.jpg';
 import { Data } from "pages/api/find-ir";
 import { axios } from "src/lib/axios";
 import styles from "../../../styles/toggle.module.css";
@@ -342,6 +341,15 @@ export function IRForm() {
 		}),
 
 	});
+
+	useEffect(() => {
+		const clean = async () => {
+			setIr("");
+		};
+		if (ir.length > 0)
+			clean();
+	}, [form.values]);
+
 	return (
 		<div className='container' style={{ marginTop: '-75px' }}>
 

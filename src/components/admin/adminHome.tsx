@@ -63,7 +63,7 @@ export function AdminHome() {
 	}, []);
 
 	useEffect(() => {
-		axios.get<{ data: Data[]; totalPages: number }>(`/api/get-data?page=${currentPage}`)
+		axios.get<{ data: Data[]; totalPages: number }>(`/api/get-data-admin?page=${currentPage}`)
 			.then(response => {
 				setData(response.data.data);
 				setTotalPages(response.data.totalPages);

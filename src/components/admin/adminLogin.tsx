@@ -6,6 +6,7 @@ import {
 	Container,
 	useMantineTheme,
 	Image,
+	PasswordInput,
 } from '@mantine/core';
 import { useRouter } from 'next/router';
 import { useForm } from "@mantine/form";
@@ -111,13 +112,16 @@ export function AdminLogin() {
 								/>
 
 
-								<TextInput
+								<PasswordInput
 									required
 									label="Password"
 									placeholder="Enter your password"
 									style={{ marginTop: theme.spacing.md }}
 									{...form.getInputProps('pass')}
 								/>
+
+
+
 
 								<button className="btn1" type='submit'
 
