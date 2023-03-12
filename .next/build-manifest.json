@@ -25,15 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/admin-mt19937/home": [
+    "/admin-mt19937/login": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/admin-mt19937/home.js"
+      "static/chunks/pages/admin-mt19937/login.js"
     ],
-    "/findIR": [
+    "/library": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/findIR.js"
+      "static/chunks/pages/library.js"
     ]
   },
   "ampFirstPages": []

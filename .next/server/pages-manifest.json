@@ -2,8 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/admin-mt19937/home": "pages/admin-mt19937/home.js",
-  "/api/getFirebaseFileContent": "pages/api/getFirebaseFileContent.js",
-  "/api/get-data-admin": "pages/api/get-data-admin.js",
-  "/findIR": "pages/findIR.js"
+  "/admin-mt19937/login": "pages/admin-mt19937/login.js",
+  "/library": "pages/library.js",
+  "/api/get-data": "pages/api/get-data.js"
 }

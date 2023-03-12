@@ -1,1 +1,1 @@
-export const basePath: string = "F:\\350\\IUPACpalV2";
+export const basePath: string = "C:\\Users\\Ruzlan\\Desktop\\final350\\IUPACpalV2";
