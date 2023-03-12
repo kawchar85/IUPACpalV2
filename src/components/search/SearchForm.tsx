@@ -87,7 +87,7 @@ const SearchForm: React.FC<SearchFormProps> = ({ onSearch }) => {
 								search box and hit enter to see the list of Inverted Repeats with gaps and mismatches.
 							</Text>
 
-							<List
+							{/* <List
 								color='#caad7e'
 								mt={30}
 								spacing="sm"
@@ -105,7 +105,7 @@ const SearchForm: React.FC<SearchFormProps> = ({ onSearch }) => {
 								<List.Item>
 									<b>Need this?: </b> some dummy text, random text, random random.
 								</List.Item>
-							</List>
+							</List> */}
 
 							<Group mt={30}>
 								<button className='btn2' onClick={openSearch}>Get started</button>

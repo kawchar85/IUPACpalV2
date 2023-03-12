@@ -9,7 +9,7 @@ import {
 	List,
 	ThemeIcon,
 } from '@mantine/core';
-import { IconCheck } from '@tabler/icons';
+
 import Link from 'next/link';
 import image from '../../assets/dna.png';
 import useStyles from './styles';
@@ -25,7 +25,7 @@ export function HeroBullets() {
 							textShadow: "#caad7e 0px 3px 0px, #c4dea4 3px 3px 3px",
 
 						}}>
-							Welcome to IUPACpal
+							Welcome to IUPACpalV2
 						</Title>
 						<Text mt="md" style={{
 							font: "normal 20px/1.2 Segoe Print,Verdana, Helvetica",

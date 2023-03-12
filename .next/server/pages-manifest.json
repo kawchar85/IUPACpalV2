@@ -2,9 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/api/find-ir": "pages/api/find-ir.js",
-  "/findIR": "pages/findIR.js",
-  "/api/update-file": "pages/api/update-file.js",
-  "/api/insert-data": "pages/api/insert-data.js",
-  "/api/getFirebaseFileContent": "pages/api/getFirebaseFileContent.js"
+  "/admin-mt19937/home": "pages/admin-mt19937/home.js",
+  "/api/getFirebaseFileContent": "pages/api/getFirebaseFileContent.js",
+  "/api/get-data-admin": "pages/api/get-data-admin.js",
+  "/findIR": "pages/findIR.js"
 }

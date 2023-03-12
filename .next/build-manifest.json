@@ -25,6 +25,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/admin-mt19937/home": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/admin-mt19937/home.js"
+    ],
     "/findIR": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

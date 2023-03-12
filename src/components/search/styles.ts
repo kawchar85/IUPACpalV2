@@ -28,7 +28,9 @@ const useStyles = createStyles((theme) => ({
 	},
 
 	content: {
-		maxWidth: 480,
+
+		marginTop: '80px',
+		maxWidth: 700,
 		marginRight: theme.spacing.xl * 3,
 
 		[theme.fn.smallerThan('md')]: {
@@ -40,9 +42,9 @@ const useStyles = createStyles((theme) => ({
 	title: {
 		color: theme.colorScheme === 'dark' ? theme.white : theme.black,
 		fontFamily: `Greycliff CF, ${theme.fontFamily}`,
-		fontSize: 40,
+		fontSize: 42,
 		lineHeight: 1.2,
-		fontWeight: 800,
+		fontWeight: 900,
 
 		[theme.fn.smallerThan('xs')]: {
 			fontSize: 28,

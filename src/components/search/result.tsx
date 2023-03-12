@@ -88,7 +88,7 @@ const Result: React.FC<MyComponentProps> = ({ keyToFind, onClose }) => {
 		}
 		catch (e) {
 			console.log(e);
-			setInputContent('Opps! Invalid Input File Link!!');
+			setInputContent('Opps! Your network speed may be slow. Please ensure that your internet connection is stable and there are no connectivity issues.');
 		}
 		try {
 			const content = await getFileContent(row.output_file_link);
@@ -96,7 +96,7 @@ const Result: React.FC<MyComponentProps> = ({ keyToFind, onClose }) => {
 		}
 		catch (e) {
 			console.log(e);
-			setOutputContent('Opps! Invalid Output File Link!!');
+			setOutputContent('Opps! Your network speed may be slow. Please ensure that your internet connection is stable and there are no connectivity issues.');
 		}
 
 		// console.log(inputContent);

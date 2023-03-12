@@ -70,7 +70,7 @@ export default function HeaderResponsive() {
 	return (
 		<Header height={HEADER_HEIGHT} mb={120} className={classes.root}>
 			<Container className={classes.header}>
-				<Text color="white" size={28}>IUPACpal.v2</Text>
+				<Text color="white" size={28}>IUPACpalV2</Text>
 				<Group spacing={5} className={classes.links}>
 					{isLoggedIn == true ? itemsAdmin : items}
 				</Group>
