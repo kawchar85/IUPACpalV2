@@ -1,1 +1,2 @@
-# IUPACpalV2
+# IUPACpalV2: Efficient Inverted Repeat Identification via Web Tool
+IUPACpalV2 is a web-based tool that efficiently identifies inverted repeats (IRs) in IUPAC-encoded DNA sequences. It is designed to provide a user-friendly interface for biologists to easily identify IRs, including gapped inverted repeats with mismatches, and store the results in a database for easy retrieval and analysis. The web tool is built using a combination of NextJS, TypescriptJS, C++, NodeJS, ExpressJS, MySQL, Firebase, MantineUI, CSS, and HTML.
