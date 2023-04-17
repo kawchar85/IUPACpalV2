@@ -21,6 +21,10 @@ using namespace std::chrono;
 #define I_map map< char, set<char> >
 typedef int INT;
 
+#define LIMIT 10000
+
+int total_ir[LIMIT];
+int summary_ir[LIMIT];
 
 
 bool is_valid_iupac_dna(string s) {
@@ -719,7 +723,7 @@ int main(int argc, char* argv[]) {
     ///////////////////////
 
     // Check input file exists, exit if it does not
-    if (!exist(input_file.c_str())) { cout << "Error: File '" + input_file + "' not found." << endl; return -1; }
+    if (!exist(input_file.c_str())) { cout << "Error: File '" + input_file + "' not found." << endl; return 0; }
 
     // Read input file
     ifstream input( input_file );
@@ -765,10 +769,10 @@ int main(int argc, char* argv[]) {
     }
 
     // Check if sequence name was found, exit if not
-    if (!found_seq) { cout << "Error: Sequence '" + seq_name + "' not found in your input DNA file." << endl; return -1; }
+    if (!found_seq) { cout << "Error: Sequence '" + seq_name + "' not found in your input DNA file." << endl; return 0; }
 
     //invalid?
-    if (!is_valid_iupac_dna(contents)) { cout << "Error: Provided sequence is not a valid IUPAC-encoded DNA." << endl; return -1; }
+    if (!is_valid_iupac_dna(contents)) { cout << "Error: Provided sequence is not a valid IUPAC-encoded DNA." << endl; return 0; }
 
     long int n = contents.length();
     unsigned char * seq = ( unsigned char* ) malloc( ( n ) * sizeof( unsigned char ) );
@@ -1208,6 +1212,8 @@ int main(int argc, char* argv[]) {
                     file << "(Length = " << len << ", Gap = " <<gap << " , Mismatch = " << mis << ")\n";
                     file << "\n";
 
+                    if(len < LIMIT) total_ir[len]++;
+
                     it--;
                 }
             }
@@ -1236,7 +1242,24 @@ int main(int argc, char* argv[]) {
     // Output the contents of the string variable to stdout
     cout << content;
 
-    cout << "--------------------------------" << endl;
+
+    for(int i = LIMIT - 2; i > 0; i--) {
+        summary_ir[i] = summary_ir[i+1] + total_ir[i];
+    }
+
+    bool f = 1;
+    for(int i = 2; i < LIMIT; i += 3) {
+        if(f) {
+            cout << "Short Summary:\n";
+            f = 0;
+        }
+        if(summary_ir[i] > 0) {
+            cout <<"Total IR of length greater than or equal " << i << " : " << summary_ir[i] << endl;
+        }
+    }
+
+
+    cout << "---------------------------------------------------------------" << endl;
     cout << warn << endl;
 
     free(match_matrix);
